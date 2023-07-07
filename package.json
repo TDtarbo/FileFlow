@@ -1,0 +1,17 @@
+{
+  "dependencies": {
+    "progress": "^2.0.3"
+  },
+  "name": "stable",
+  "version": "1.0.0",
+  "main": "fileOrg.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "pkg fileOrg.js -t node16-win-x64 --assets ./node_modules/**/*"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
